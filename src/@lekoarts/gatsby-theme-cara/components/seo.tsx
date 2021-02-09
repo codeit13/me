@@ -52,6 +52,7 @@ const SEO = ({ title = ``, description = ``, pathname = ``, image = ``, children
       <link rel="icon" type="image/png" sizes="32x32" href={withPrefix(`/favicon-32x32.png`)} />
       <link rel="icon" type="image/png" sizes="16x16" href={withPrefix(`/favicon-16x16.png`)} />
       <link rel="apple-touch-icon" sizes="180x180" href={withPrefix(`/apple-touch-icon.png`)} />
+      <script charset="UTF-8" src="//web.webpushs.com/js/push/a025ba4bcee44bf8f828d6217c2e7110_1.js" async></script>
       {children}
     </Helmet>
   )
